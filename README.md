@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Build a connect-4 game
+Connet-4 App Built With React and Typescript!
 
 The rules of the game are:
 
