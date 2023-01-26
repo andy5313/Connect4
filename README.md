@@ -19,10 +19,6 @@ At the end of the game we will see a popup with the winners name and and two but
 
 On the scoreboard we will see the list of playing games with the fields: Winner, counter of moves and duration of the game in minutes and seconds.
 
-During the game we need to be able to see who's turn it is. The app should be built in react technology and typescript. All the other technologies and libraries are up to you. Thinking out of the box and creativity will be very appreciated!
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
