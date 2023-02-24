@@ -1,4 +1,4 @@
-# Connet-4 App Built With React and Typescript!
+# Connet-4 App Built With React and Typescript
 
 The rules of the game are:
 
