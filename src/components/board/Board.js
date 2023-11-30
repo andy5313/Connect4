@@ -42,10 +42,6 @@ const Board = () => {
             <Scoreboard name={item.name} score={item.moves} time={item.time}/>
         });
     };
-
-    useEffect(() => {
-        console.log(squares)
-    }, [squares])
     
     const renderSquares = () => {
         return squares.map((square, i) => {
@@ -62,8 +58,6 @@ const Board = () => {
     }
 
     const handleClick = (index) => {
-        console.log(index)
-
         if (squares[index % 7] === ''){
             const newArray = [...squares];
             while (index < 35){
@@ -72,16 +66,10 @@ const Board = () => {
             while (index >= 0 && squares[index] !== '') {
                 index -= 7;
             }
-            console.log('index ', index)
             newArray[index] = 'red'
             setSquares(newArray)
         } 
     }
-
-    // const checkWin = (i) => {
-        
-
-    // }
 
     return (
         <div>
